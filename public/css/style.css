@@ -1,0 +1,47 @@
+.bg-greece
+{
+    background-color: #005BAE !important;
+}
+
+.fg-greece
+{
+    color: #005BAE !important;
+}
+
+.bg-hover-greece:hover {
+  background: #005BAE !important;
+}
+
+.bg-active-greece:active {
+  background: #005BAE !important;
+}
+
+.fg-hover-greece:hover {
+  color: #005BAE !important;
+}
+
+.fg-active-greece:active {
+  color: #005BAE !important;
+}
+
+.bg-lightGreece {
+    background-color: #A2D1FC !important;
+}
+
+.fg-lightGreece {
+    color: #A2D1FC !important;
+}
+
+
+.fade-in {
+    -webkit-transition: background .2s ease-in;
+    -moz-transition: background .2s ease-in;
+    -o-transition: background .2s ease-in;
+    -ms-transition: background .2s ease-in;
+    transition: background .2s ease-in;
+}
+
+.main {
+    width:80%;
+    margin: 0 auto;
+}

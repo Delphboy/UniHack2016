@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <title>CompSoc Manager</title>
+        
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="./css/metro.css" rel="stylesheet"/>
+        <link href="./css/metro-schemes.css" rel="stylesheet"/>
+        <link href="./css/metro-responsive.css" rel="stylesheet"/>
+        <link href="./css/metro-icons.css" rel="stylesheet"/>
+        
+        <link href="./css/style.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        <div class="app-bar">
+            <div style="width:80%; margin:0 auto;">
+                <a class="app-bar-element" href="">Home</a>
+
+                <div class="app-bar-element place-right">
+					<a class="dropdown-toggle fg-white"><span class="mif-enter"></span> Enter</a>
+					<div class="app-bar-drop-container bg-white fg-dark place-right"
+							data-role="dropdown" data-no-close="true">
+						<div class="padding20">
+							<form>
+								<h4 class="text-light">Login to service...</h4>
+								<div class="input-control text">
+									<span class="mif-user prepend-icon"></span>
+									<input type="text">
+								</div>
+								<div class="input-control text">
+									<span class="mif-lock prepend-icon"></span>
+									<input type="password">
+								</div>
+								<label class="input-control checkbox small-check">
+									<input type="checkbox">
+									<span class="check"></span>
+									<span class="caption">Remember me</span>
+								</label>
+								<div class="form-actions">
+									<button class="button">Login</button>
+									<button class="button link">Cancel</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+        
+        <div class="padding20" style="width:80%; margin:0 auto;">
+            
+            <div class="fg-white bg-cyan padding30 margin10 align-center">
+                <h1>Hey Katie, your next meeting is Monday at 3pm</h1>
+				<p>It doesn't look like you have anything planned<p>
+				<a  class="button success" href="">I do! Update Calender</a> <a class="button danger" href="">Give me suggestions</a>
+            </div>
+			
+			<div class="bg-gray fg-white padding10 margin10">
+				<strong>What next? 💡</strong> How about a git workshop? <a class="" href="./">Let's do it! 🤘</a>
+			</div>
+			
+			<div class="tile-container margin10">
+
+			
+				<div class="tile-wide-y tile-wide bg-white" data-role="tile">
+					<div class="tile-content">
+						<div id="cal" data-role="calendar" data-buttons="false" data-stored="2016-11-14, 2016-11-21" data-day-click="day_click" class="calendar bg-white"></div>
+						<div id="event-info" class="margin5 padding5 fg-white" style="background:#59cde2;" >No Event Selected</div>
+						 <script>
+                            function day_click(short, full) {
+								var result = $("#cal").data("stored").split(', ');
+								
+								var res = jQuery.inArray( short, result );
+								
+								if(result.indexOf(short) >= 0)
+								{
+									$( "#event-info" ).text("Event: Hackathon");
+								} else {
+									$( "#event-info" ).html("<a class='button success' href=''>Make New Event</a>");
+								}
+                            }
+                        </script>
+					</div>
+				</div>
+				
+				<div class="tile-wide fg-white" data-role="tile">
+					<div class="tile-content slide-up-2">
+						<div class="slide">
+							
+						<div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/students.jpeg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
+						<div class="slide-over bg-cyan text-small padding10">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</div>
+						<div class="tile-label bg-grayDark">Talks</div>
+					</div>
+				</div>
+				
+				<div class="tile fg-white" data-role="tile">
+					<div class="tile-content slide-up-2">
+						<div class="slide">
+							
+						<div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/talking.jpg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
+						<div class="slide-over bg-cyan text-small padding10">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</div>
+						<div class="tile-label bg-grayDark">Messaging</div>
+					</div>
+				</div>
+				
+				<div class="tile fg-white" data-role="tile">
+					<div class="tile-content slide-up-2">
+						<div class="slide">
+							
+						<div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/advice.jpg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
+						<div class="slide-over bg-cyan text-small padding10">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</div>
+						<div class="tile-label bg-grayDark">Advice</div>
+					</div>
+				</div>
+				
+				<div class="tile-wide fg-white" data-role="tile">
+					<div class="tile-content slide-up-2">
+						<div class="slide">
+							
+						<div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/bus.jpg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
+						<div class="slide-over bg-cyan text-small padding10">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</div>
+						<div class="tile-label bg-grayDark">Trips</div>
+					</div>
+				</div>
+				
+				<div class="tile fg-white" data-role="tile">
+					<div class="tile-content slide-up-2">
+						<div class="slide">
+							
+						<div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/guest.jpg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
+						<div class="slide-over bg-cyan text-small padding10">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</div>
+						<div class="tile-label bg-grayDark">Guest Speakers</div>
+					</div>
+				</div>
+				
+			</div>
+					
+        <div class="footer bg-cobalt margin10 fg-white" style="height:3rem;">
+            <div style="width:80%; margin:0 auto;">
+                <br/>
+                � 2011 mydomain.com All Rights Reserved | Created by <a href="http://www.kpf.io/">Katie Paxton-Fear</a>
+            </div>
+        </div>
+        
+        
+        <script src="./js/jquery-3.1.1.js"></script>
+        <script src="./js/metro.js"></script>
+    </body>
+</html>
