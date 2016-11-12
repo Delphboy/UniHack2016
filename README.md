@@ -2,25 +2,22 @@
 Our project for GreatUniHack 2016 is a social network/organisation tool that allows Computing Societies to interact together in a more effective way. 
 
 ## Features
-[] denotes that the feature isn't complete
-[x] denotes that the project is complete
+- [ ] Messaging
 
-[]Messaging
+- [ ] File Storage
 
-[]File Storage
+- [ ] Project Management system
 
-[]Project Management system
+- [ ] Trip reviews
 
-[]Trip reviews
+- [ ] Git hookin
 
-[]Git hookin
+- [ ] Calendar
 
-[]calendar
+- [ ] Sign in and register
 
-[]Sign in and register
+- [ ] Member permisions
 
-[]Member permisions
+- [ ] Tickets
 
-[]Tickets
-
-[]sponsers
+- [ ] Sponsers
