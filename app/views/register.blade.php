@@ -4,6 +4,7 @@
     <div class="grid">
         <div class="row cells7">
             <div class="cell colspan4">
+                <h1>Register</h1>
                 {{ Form::open( array('url' => '/register', 'method' => 'POST')) }}
                 <div class="input-control text full-size">
                     {{Form::text('name', null, array('placeholder' => 'Your Name'))}}
