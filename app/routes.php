@@ -11,9 +11,25 @@
 |
 */
 
-Route::get('/', 'HomeController@showWelcome');
-Route::get('/auth/login', 'AuthController@getLogin');
-Route::get('/auth/register', 'AuthController@getRegister');
-Route::get('/auth/logout', 'AuthController@getLogout');
-Route::post('/auth/login', 'AuthController@userAuth');
-Route::post('/auth/register', 'AuthController@userRegister');
+
+Route::get('/', function()
+{
+	return View::make('home');
+});
+
+Route::get('/register', function()
+{
+    return View::make('register');
+});
+Route::get('/login', function()
+{
+    return View::make('login');
+});
+
+//Route::get('/', 'HomeController@showWelcome');
+//Route::get('/auth/login', 'AuthController@getLogin');
+//Route::get('/auth/register', 'AuthController@getRegister');
+//Route::get('/auth/logout', 'AuthController@getLogout');
+//Route::post('/auth/login', 'AuthController@userAuth');
+//Route::post('/auth/register', 'AuthController@userRegister');
+//>>>>>>> origin/master
