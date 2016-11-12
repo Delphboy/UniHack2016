@@ -458,7 +458,7 @@ class Application extends Container implements HttpKernelInterface, TerminableIn
     }
     public static function getBootstrapFile()
     {
-        return 'C:\\Users\\HPS19\\Documents\\GitHub\\UniHack2016\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation' . '/start.php';
+        return '/home/george/www/UniHack2016/vendor/laravel/framework/src/Illuminate/Foundation' . '/start.php';
     }
     public function startExceptionHandling()
     {
