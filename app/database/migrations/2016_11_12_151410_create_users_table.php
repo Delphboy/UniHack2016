@@ -16,7 +16,6 @@ class CreateUsersTable extends Migration {
         {
             $table->increments('id')->unsigned();
             $table->string('name');
-            // $table->integer('university_id')->unsigned();
             $table->string('email');
             $table->string('password');
         });
