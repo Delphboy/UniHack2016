@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c626e561-c227-4b5c-a500-aa38b6ca54b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/register.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/release.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/compiled.php" afterPath="$PROJECT_DIR$/bootstrap/compiled.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/boris" afterPath="$PROJECT_DIR$/vendor/bin/boris" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/include_paths.php" afterPath="$PROJECT_DIR$/vendor/composer/include_paths.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/.gitignore" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/LICENSE" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/README.md" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/bin/boris" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/bin/boris" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/box.json" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/box.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/composer.json" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/Boris.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/Boris.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/CLIOptionsHandler.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/CLIOptionsHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/ColoredInspector.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/ColoredInspector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/Config.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/DumpInspector.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/DumpInspector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/EvalWorker.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/EvalWorker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/ExportInspector.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/ExportInspector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/Inspector.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/Inspector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/ReadlineClient.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/ReadlineClient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/ShallowParser.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/Boris/ShallowParser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/autoload.php" afterPath="$PROJECT_DIR$/vendor/d11wtq/boris/lib/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/register.blade.php" afterPath="$PROJECT_DIR$/app/views/register.blade.php" />
     </list>
     <ignored path="UniHack2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/register.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="374">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -83,6 +63,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/app/views/login.blade.php" />
         <option value="$PROJECT_DIR$/app/views/register.blade.php" />
       </list>
     </option>
@@ -254,12 +235,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478951078979</updated>
-      <workItem from="1478951081636" duration="2918000" />
+      <workItem from="1478951081636" duration="5285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2918000" />
+    <option name="totallyTimeSpent" value="5285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -310,8 +291,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
