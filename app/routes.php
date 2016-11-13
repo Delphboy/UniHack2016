@@ -25,7 +25,10 @@ Route::get('/login', function()
 {
     return View::make('login');
 });
-
+Route::get('/activities', function()
+{
+    return View::make('activities');
+});
 //Route::get('/', 'HomeController@showWelcome');
 //Route::get('/auth/login', 'AuthController@getLogin');
 //Route::get('/auth/register', 'AuthController@getRegister');
