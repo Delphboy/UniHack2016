@@ -31,10 +31,7 @@ Route::get('/trips', function()
     return View::make('trips');
 });
 
-Route::get('/speakers', function()
-{
-    return View::make('speakers');
-});
+Route::get('/speakers', 'SpeakersController@showSpeakers');
 
 //Route::get('/', 'HomeController@showWelcome');
 Route::get('/login', 'AuthController@getLogin');
