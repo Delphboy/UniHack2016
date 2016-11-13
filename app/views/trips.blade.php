@@ -34,7 +34,7 @@
                                 <h4><a class="fg-cyan fg-hover-darkCyan" href="{{ $trip->url }}">{{ $trip->name }}</a></h4>
                             </div>
                             <div class="cell"><div class="rating static good" data-show-score="false" data-role="rating" data-value="{{ $trip->tripReviews()->avg('rating') }}" data-color-rate="true" data-static="true"></div></div>
-                            <div class="cell"><a href="/review/{{ $trip->id }}">{{ $trip->tripReviews->count() }} reviews</a></div>
+                            <div class="cell"><a href="trips/review/{{ $trip->id }}">{{ $trip->tripReviews->count() }} reviews</a></div>
                             <div class="cell tag-list">
                                 @foreach($trip->tags as $tag)
                                 <span class="tag bg-{{ $tag->color }} fg-white">{{ $tag->tag }}</span>&nbsp;

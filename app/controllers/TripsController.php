@@ -18,6 +18,6 @@ class TripsController extends BaseController
     {
         $trip = Trip::find($trip_id);
         $reviews = $trip->tripReviews;
-        return View::make('reviews', ['trip' => $trip, 'reviews' => $reviews]);
+        return View::make('reviews', ['return'=> 'trips','content' => $trip, 'reviews' => $reviews]);
     }
 }

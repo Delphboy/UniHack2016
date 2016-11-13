@@ -12,6 +12,11 @@ class Speaker extends \Eloquent {
 
     public function tags()
     {
-        return $this->belongsToMany('Tag');
+        return $this->belongsToMany('Tag', 'speakers_tags');
+    }
+
+    public function speakerReviews()
+    {
+        return $this->hasMany('SpeakerReview');
     }
 }

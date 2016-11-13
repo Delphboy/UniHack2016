@@ -16,19 +16,24 @@
 
         <div class="tile-wide-y tile-wide bg-white" data-role="tile">
             <div class="tile-content">
-                <div id="cal" data-role="calendar" data-buttons="false" data-stored="2016-11-14, 2016-11-21" data-day-click="day_click" class="calendar bg-white"></div>
+                <div id="cal" data-role="calendar" data-buttons="false" data-stored="@foreach($events as $event){{ $event->date }}, @endforeach 2016-12-5" data-day-click="day_click" class="calendar bg-white"></div>
                 <div id="event-info" class="margin5 padding5 fg-white" style="background:#59cde2;" >No Event Selected</div>
                 <script>
-                    function day_click(short, full) {
+                    function day_click(short) {
                         var result = $("#cal").data("stored").split(', ');
 
                         var res = jQuery.inArray( short, result );
-
-                        if(result.indexOf(short) >= 0)
+                        if(result.indexOf(short) == -4)
                         {
                             $( "#event-info" ).text("Event: Hackathon");
-                        } else {
-                            $( "#event-info" ).html("<a class='button success' href=''>Make New Event</a>");
+                        }
+                        @foreach($events as $event)
+                            else if(result.indexOf(short) == {{ $event->id }}) {
+                            $( "#event-info" ).text("Event: {{$event->title}}");
+                            }
+                        @endforeach
+                       else {
+                            $( "#event-info" ).html("<a class='button success' href='/events/"+ short +"'>Make New Event</a>");
                         }
                     }
                 </script>
@@ -107,7 +112,7 @@
         </div>
         </a>
 
-        <a href="https://github.com/greenpencil">
+        <a href="https://github.com/SalfordComputingSociety">
         <div class="tile fg-white" data-role="tile">
             <div class="tile-content slide-up-2">
                 <div class="slide">

@@ -17,7 +17,14 @@ class SpeakersController extends BaseController {
 
 	public function showSpeakers()
 	{
-		return View::make('speakers');
+        $speakers = Speaker::all();
+		return View::make('speakers', ["speakers"=>$speakers]);
 	}
 
+    public function showReviews($speaker_id)
+    {
+        $trip = Speaker::find($speaker_id);
+        $reviews = $trip->speakerReviews;
+        return View::make('reviews', ['return'=> 'speakers','content' => $trip, 'reviews' => $reviews]);
+    }
 }

@@ -14,7 +14,8 @@
 
 Route::get('/', function()
 {
-	return View::make('home');
+    $events = Calendar::all();
+	return View::make('home', [ 'events' => $events]);
 });
 
 Route::get('/register', function()
@@ -30,12 +31,15 @@ Route::get('/trips', 'TripsController@showTrips');
 
 Route::get('/speakers', 'SpeakersController@showSpeakers');
 
-Route::get('/activities', function()
-{
-    return View::make('activities');
-});
+Route::get('/speakers/review/{speaker_id}', 'SpeakersController@showReviews');
 
-Route::get('/review/{trip_id}', 'TripsController@showReviews');
+Route::get('/activities', 'ActivityController@showActivities');
+
+Route::get('trips/review/{trip_id}', 'TripsController@showReviews');
+
+Route::get('events/{time}', 'CalendarController@showEvents');
+
+Route::post('new/event/', 'CalendarController@newEvent');
 
 //Route::get('/', 'HomeController@showWelcome');
 Route::get('/login', 'AuthController@getLogin');
