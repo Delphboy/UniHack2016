@@ -20,4 +20,15 @@ class TripsController extends BaseController
         $reviews = $trip->tripReviews;
         return View::make('reviews', ['return'=> 'trips','content' => $trip, 'reviews' => $reviews]);
     }
+
+    public function newReview($trip_id)
+    {
+        $data['review'] = Input::get('review');
+        $data['rating'] = Input::get('rating');
+        $data['trip_id'] = $trip_id;
+        $data['user_id']= 1;
+
+        Calendar::create($data);
+        return Redirect::to("/trips/review/".$trip_id);
+    }
 }

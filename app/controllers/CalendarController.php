@@ -21,7 +21,7 @@ class CalendarController extends BaseController {
         $data['time'] = Input::get('time');
         $data['date'] = Input::get('date');
         $data['user_id']= 1;
-        //var_dump($data);
+        
         Calendar::create($data);
         return Redirect::to("/");
     }

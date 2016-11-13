@@ -57,10 +57,8 @@
                         </div>
                     @endif
                 </div>
-        @if(Auth::check())
             <hr>
             insert box here
-        @endif
         <hr>
         @foreach($reviews as $review)
         <div class="row cells6">

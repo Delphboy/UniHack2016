@@ -37,6 +37,8 @@ Route::get('/activities', 'ActivityController@showActivities');
 
 Route::get('trips/review/{trip_id}', 'TripsController@showReviews');
 
+Route::get('trips/review/new/{trip_id}', 'TripsController@newReview');
+
 Route::get('events/{time}', 'CalendarController@showEvents');
 
 Route::post('new/event/', 'CalendarController@newEvent');

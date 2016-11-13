@@ -28,7 +28,7 @@
                             $( "#event-info" ).text("Event: Hackathon");
                         }
                         @foreach($events as $event)
-                            else if(result.indexOf(short) == {{ $event->id }}) {
+                            else if(result.indexOf(short) == {{ $event->id-1 }}) {
                             $( "#event-info" ).text("Event: {{$event->title}}");
                             }
                         @endforeach
