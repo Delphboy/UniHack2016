@@ -12,7 +12,7 @@ class CreateActivityTagTable extends Migration {
 	 */
 	public function up()
     {
-        Schema::create('activity-tags', function(Blueprint $table)
+        Schema::create('activity_tags', function(Blueprint $table)
         {
             $table->increments('id')->unsigned();
             $table->integer('activity-id')->unsigned();

@@ -12,7 +12,7 @@ class CreateSpeakerReviewTable extends Migration {
 	 */
 	public function up()
     {
-        Schema::create('speaker-reviews', function(Blueprint $table)
+        Schema::create('speaker_reviews', function(Blueprint $table)
         {
             $table->increments('id')->unsigned();
             $table->integer('activity-id')->unsigned();

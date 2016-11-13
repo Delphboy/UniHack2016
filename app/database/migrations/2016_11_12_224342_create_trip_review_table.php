@@ -12,7 +12,7 @@ class CreateTripReviewTable extends Migration {
 	 */
 	public function up()
     {
-        Schema::create('trip-reviews', function(Blueprint $table)
+        Schema::create('trip_reviews', function(Blueprint $table)
         {
             $table->increments('id')->unsigned();
             $table->integer('activity-id')->unsigned();
