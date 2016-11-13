@@ -35,7 +35,7 @@ Route::get('/activities', function()
     return View::make('activities');
 });
 
-Route::get('/review/{id}', 'TripsController@getLogin');
+Route::get('/review/{trip_id}', 'TripsController@showReviews');
 
 //Route::get('/', 'HomeController@showWelcome');
 Route::get('/login', 'AuthController@getLogin');

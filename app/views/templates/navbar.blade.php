@@ -4,7 +4,7 @@
             @if(Auth::check())
             <div class="app-bar-element place-right">
                 <a class="dropdown-toggle fg-white">
-                    <div class="image-container rounded"><img style="width: 50px;height: 46px;" src="./images/logo.png"></div> </a>&nbsp;
+                    <div class="image-container rounded"><img style="width: 50px;height: 46px;" src="/images/logo.png"></div> </a>&nbsp;
                 <div class="app-bar-drop-container bg-white fg-dark place-right"
                      data-role="dropdown" data-no-close="true">
                     <div class="padding20 align-center" style=" width: 400px;">

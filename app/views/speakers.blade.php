@@ -49,7 +49,7 @@
 
                 <div class="row cells6">
                     <div class="cell">
-                        <div class="image-container rounded"><img style="height: 121px;" src="./images/birmingham.jpg"></div>
+                        <div class="image-container rounded"><img style="height: 121px;" src="/images/birmingham.jpg"></div>
 
                     </div>
 

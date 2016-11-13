@@ -14,9 +14,10 @@ class TripsController extends BaseController
         return View::make('trips', ['tags' => $tags, 'trips' => $trips]);
     }
 
-    public function showReviews($tripId)
+    public function showReviews($trip_id)
     {
-        $trip = Trip::find($tripId);
-        $reviews = $trip->tripReviews();
+        $trip = Trip::find($trip_id);
+        $reviews = $trip->tripReviews;
+        return View::make('reviews', ['trip' => $trip, 'reviews' => $reviews]);
     }
 }

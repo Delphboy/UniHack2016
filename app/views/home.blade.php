@@ -8,7 +8,7 @@
     </div>
 
     <div class="bg-gray fg-white padding10 margin10">
-        <strong>What next? 💡</strong> How about a git workshop? <a class="fg-lightBlue fg-hover-cyan" href="./">Let's do it! 🤘</a>
+        <strong>What next? 💡</strong> How about a git workshop? <a class="fg-lightBlue fg-hover-cyan" href="/">Let's do it! 🤘</a>
     </div>
 
     <div class="tile-container margin10">
@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <a href="./activities">
+        <a href="/activities">
         <div class="tile-wide fg-white" data-role="tile">
             <div class="tile-content slide-up-2">
                 <div class="slide">
@@ -77,7 +77,7 @@
             </div>
         </div>
 
-        <a href="./trips">
+        <a href="/trips">
             <div class="tile-wide fg-white" data-role="tile">
                 <div class="tile-content slide-up-2">
                     <div class="slide">
@@ -92,7 +92,7 @@
             </div>
         </a>
 
-        <a href="./speakers">
+        <a href="/speakers">
         <div class="tile fg-white" data-role="tile">
             <div class="tile-content slide-up-2">
                 <div class="slide">
