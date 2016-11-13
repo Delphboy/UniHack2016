@@ -11,10 +11,19 @@ class AuthController extends \BaseController {
     }
 
     public function getLogout() {
+        Auth::logout();
+        
         return Redirect::to('/');
     }
 
     public function userAuth() {
+        $email = Input::get('email');
+        $password = Input::get('password');
+
+        if (Auth::attempt(array('email' => $email, 'password' => $password))) {
+            return Redirect::to('/');
+        }
+
         return Redirect::to('/');
     }
 
