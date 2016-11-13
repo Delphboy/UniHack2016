@@ -16,6 +16,8 @@ class CreateTagTable extends Migration {
         {
             $table->increments('id')->unsigned();
             $table->string('tag');
+            $table->string('color');
+            $table->timestamps();
         });
     }
 

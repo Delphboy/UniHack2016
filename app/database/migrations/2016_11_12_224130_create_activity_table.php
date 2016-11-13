@@ -17,8 +17,7 @@ class CreateActivityTable extends Migration {
             $table->increments('id')->unsigned();
             $table->string('title');
             $table->string('description');
-            $table->string('dateStart');
-            $table->string('dateEnd');
+            $table->string('url');
             $table->timestamps();
         });
 	}
