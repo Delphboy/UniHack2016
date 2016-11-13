@@ -40,6 +40,7 @@
                 <div class="slide">
 
                     <div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/students.jpeg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
+
                 <div class="slide-over bg-cyan text-small padding10">
                     Need something low effort? Want to try something new? Maybe teach some basic concepts like git for beginners
                     we've got you covered with our repository of talks and activities, sorted in tags.
@@ -48,7 +49,7 @@
             </div>
         </div>
 
-        <div class="tile fg-white" data-role="tile">
+        <div class="tile fg-white" data-role="tile" >
             <div class="tile-content slide-up-2">
                 <div class="slide">
 
@@ -59,6 +60,7 @@
                 <div class="tile-label bg-grayDark">Messaging</div>
             </div>
         </div>
+
 
         <div class="tile fg-white" data-role="tile">
             <div class="tile-content slide-up-2">
@@ -73,18 +75,20 @@
             </div>
         </div>
 
-        <div class="tile-wide fg-white" data-role="tile">
-            <div class="tile-content slide-up-2">
-                <div class="slide">
+        <a href="./trips">
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content slide-up-2">
+                    <div class="slide">
 
-                    <div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/bus.jpg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
-                <div class="slide-over bg-cyan text-small padding10">
-                    Planning a trip and want some suggestions? Get help from your fellow Computing Societies, suggestion, review and discuss
-                    the best trips so your members won't regret going.
+                        <div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/bus.jpg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
+                    <div class="slide-over bg-cyan text-small padding10">
+                        Planning a trip and want some suggestions? Get help from your fellow Computing Societies, suggestion, review and discuss
+                        the best trips so your members won't regret going.
+                    </div>
+                    <div class="tile-label bg-grayDark">Trips</div>
                 </div>
-                <div class="tile-label bg-grayDark">Trips</div>
             </div>
-        </div>
+        </a>
 
         <div class="tile fg-white" data-role="tile">
             <div class="tile-content slide-up-2">
@@ -125,19 +129,21 @@
             </div>
         </div>
 
-        <div class="tile-wide fg-white" data-role="tile">
-                <div class="tile-content slide-up-2">
+        <a href="http://www.technw.uk/">
+            <div class="tile-wide fg-white" data-role="tile">
+                    <div class="tile-content slide-up-2">
 
-                    <div class="slide">
+                        <div class="slide">
 
-                        <div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/guh.jpg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
-                    <div class="slide-over bg-cyan text-small padding10">
-                        If you're looking for something to do this week why not check out the local tech scene? From specific
-                        technology stacks, conferences, freelance and start up meet ups to meet ups promoting programming styles and mentalities.
+                            <div class="image-container image-format-fill" style="width: 100%; height: 100%;"><div class="frame"><div style="width: 100%; height: 100%; background-image: url(&quot;images/guh.jpg&quot;); background-size: cover; background-repeat: no-repeat; border-radius: 0px;"></div></div></div></div>
+                        <div class="slide-over bg-cyan text-small padding10">
+                            If you're looking for something to do this week why not check out the local tech scene? From specific
+                            technology stacks, conferences, freelance and start up meet ups to meet ups promoting programming styles and mentalities.
+                        </div>
+                        <div class="tile-label bg-grayDark">Local Events</div>
                     </div>
-                    <div class="tile-label bg-grayDark">Local Events</div>
-                </div>
-        </div>
+            </div>
+        </a>
 
     </div>
 

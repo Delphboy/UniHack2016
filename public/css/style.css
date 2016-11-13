@@ -45,3 +45,24 @@
     width:80%;
     margin: 0 auto;
 }
+
+.tag {
+    word-spacing:2px;
+    display: inline-block;
+    padding: .2rem .6rem .3rem;
+    font-size: 0.8rem;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    margin-top:auto;
+}
+
+.tag-align {
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.tag-list {
+    padding-top: 0.5rem;
+}

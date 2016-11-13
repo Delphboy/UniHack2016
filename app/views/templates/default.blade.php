@@ -22,10 +22,11 @@
     @yield("content")
 </div>
 
-<div class="footer bg-cobalt margin10 no-margin-left no-margin-right fg-white" style="height:3rem;">
+<div class="footer bg-cobalt margin10 no-margin-left no-margin-right no-margin-bottom padding10 fg-white align-center">
     <div style="width:80%; margin:0 auto;">
-        <br/>
-        � 2011 mydomain.com All Rights Reserved | Created by <a href="http://www.kpf.io/">Katie Paxton-Fear</a>
+        &copy; 2016 CSSOCUK All Rights Reserved<br/>
+        Created by <a class="fg-lightBlue fg-hover-cyan" href="http://www.kpf.io/">Katie Paxton-Fear</a>, <a class="fg-lightBlue fg-hover-cyan" href="http://henrysenior.com">Henry Senior</a> and <a class="fg-lightBlue fg-hover-cyan" href="">George Broadly</a><br>
+        Completed in 24 hours for <a class="fg-lightBlue fg-hover-cyan" href="">Great Uni Hack</a> 2016
     </div>
 </div>
 

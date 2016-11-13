@@ -26,6 +26,16 @@ Route::get('/login', function()
     return View::make('login');
 });
 
+Route::get('/trips', function()
+{
+    return View::make('trips');
+});
+
+Route::get('/speakers', function()
+{
+    return View::make('speakers');
+});
+
 //Route::get('/', 'HomeController@showWelcome');
 //Route::get('/auth/login', 'AuthController@getLogin');
 //Route::get('/auth/register', 'AuthController@getRegister');
