@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTripReviewTable extends Migration {
+class CreateActivityTagTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,13 +12,13 @@ class CreateTripReviewTable extends Migration {
 	 */
 	public function up()
     {
-        Schema::table('trip-reviews', function(Blueprint $table)
+        Schema::create('activity-tags', function(Blueprint $table)
         {
             $table->increments('id')->unsigned();
+            $table->integer('activity-id')->unsigned();
             $table->foreign('activity-id')->references('id')->on('activities');
-            $table->foreign('reviewer')->references('id')->on('users');
-            $table->string('review');
-            $table->integer('rating');			
+            $table->integer('tag-id')->unsigned();
+            $table->foreign('tag-id')->references('id')->on('tags');
         });
     }
 
@@ -29,7 +29,7 @@ class CreateTripReviewTable extends Migration {
      */
     public function down()
     {
-        Schema::table('trip-reviews', function(Blueprint $table)
+        Schema::table('activity-tags', function(Blueprint $table)
         {
             $table->drop();
         });

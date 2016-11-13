@@ -12,7 +12,15 @@ class CreateActivityTable extends Migration {
 	 */
 	public function up()
 	{
-		//
+        Schema::create('activities', function(Blueprint $table)
+        {
+            $table->increments('id')->unsigned();
+            $table->string('title');
+            $table->string('description');
+            $table->string('dateStart');
+            $table->string('dateEnd');
+            $table->timestamps();
+        });
 	}
 
 	/**

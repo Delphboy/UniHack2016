@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateActivityTagTable extends Migration {
+class CreateTagTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,11 +12,10 @@ class CreateActivityTagTable extends Migration {
 	 */
 	public function up()
     {
-        Schema::table('activity-tags', function(Blueprint $table)
+        Schema::create('tags', function(Blueprint $table)
         {
             $table->increments('id')->unsigned();
-            $table->foreign('activity-id')->references('id')->on('activities');
-            $table->foreign('tag-id')->references('id')->on('tags');			
+            $table->string('tag');
         });
     }
 
@@ -27,7 +26,7 @@ class CreateActivityTagTable extends Migration {
      */
     public function down()
     {
-        Schema::table('activity-tags', function(Blueprint $table)
+        Schema::table('tags', function(Blueprint $table)
         {
             $table->drop();
         });
