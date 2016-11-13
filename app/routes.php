@@ -26,15 +26,19 @@ Route::get('/login', function()
     return View::make('login');
 });
 
-Route::get('/trips', function()
-{
-    return View::make('trips');
-});
+Route::get('/trips', 'TripsController@showTrips');
 
 Route::get('/speakers', function()
 {
     return View::make('speakers');
 });
+
+Route::get('/activities', function()
+{
+    return View::make('activities');
+});
+
+Route::get('/review/{id}', 'TripsController@getLogin');
 
 //Route::get('/', 'HomeController@showWelcome');
 Route::get('/login', 'AuthController@getLogin');

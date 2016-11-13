@@ -17,6 +17,6 @@ class Trip extends \Eloquent {
 
     public function tags()
     {
-        return $this->belongsToMany('Tag');
+        return $this->belongsToMany('Tag','trips_tags');
     }
 }

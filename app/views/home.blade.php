@@ -35,6 +35,7 @@
             </div>
         </div>
 
+        <a href="./activities">
         <div class="tile-wide fg-white" data-role="tile">
             <div class="tile-content slide-up-2">
                 <div class="slide">
@@ -48,6 +49,7 @@
                 <div class="tile-label bg-grayDark">Talks & Activities</div>
             </div>
         </div>
+        </a>
 
         <div class="tile fg-white" data-role="tile" >
             <div class="tile-content slide-up-2">
@@ -90,6 +92,7 @@
             </div>
         </a>
 
+        <a href="./speakers">
         <div class="tile fg-white" data-role="tile">
             <div class="tile-content slide-up-2">
                 <div class="slide">
@@ -102,8 +105,9 @@
                 <div class="tile-label bg-grayDark">Guest Speakers</div>
             </div>
         </div>
+        </a>
 
-
+        <a href="https://github.com/greenpencil">
         <div class="tile fg-white" data-role="tile">
             <div class="tile-content slide-up-2">
                 <div class="slide">
@@ -115,6 +119,7 @@
                 <div class="tile-label bg-grayDark">Github</div>
             </div>
         </div>
+        </a>
 
         <div class="tile fg-white" data-role="tile">
             <div class="tile-content slide-up-2">
